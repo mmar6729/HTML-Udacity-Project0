@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+	<title>The HTML is Strong in you</Title>
+</head>
+
+<body>
+<h1>Learning to program with Udacity</h1>
+
+<p>Starting out in any creative endeavour requires dedication, perseverance and 
+an active and engaging community of like minded souls. This especially so when
+learning to program. </p>
+
+This is a short summary of what I have learned so far ferom starting this course as well
+as the content introduced in Lesson 1.
+
+<h3><u>What is required to adopt the mindset of a developer?</u></h3>
+
+<ul>
+  <li><b>Procedural Thinking</b></li>
+  <p><ol>
+  Having clear and anambigious instructions, such as a cooking recipe 
+  for example.
+  </ol></p>
+  
+  <li><b>Abstract Thinking</b></li>
+  <p><ol>Find patterns in thinks to find similarities and patterns that on first 
+  glance may not be evident. 
+  </ol></p>
+  
+  <li><b>Systems Thinking</b></li>
+  <p><ol>Breaking big concepts into manageable chunks. Would you be able to build a 
+    space station withought first thinking about the different layers that make up
+    such a project? System thinking is the idea of taking one massive idea and 
+    breaking it down to its component parts. 
+  </ol></p>
+  
+  <li><b>Technological Empathy</b></li>
+  <p><ol>This does not mean working out how your computer is feeling and engaging Dr Phil.
+  No! It is understanding how technolgoy works, and predicting behaviour. if you type
+  www.goggles.com this is not going to take you to your favourite search engine. So cultivating
+  an affinity with technology and finding out how things work will help develop your 
+  <em><b>TechEmp.</b></em>
+  </ol></p>
+</ul>
+
+<h3><u>Summary of Lesson 1</u></h3>
+
+  <P><b>What is HTML</b></P>
+  
+  <p>HTML stands for <b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>L</b>anguage, which is one 
+  of the core technolgies for building web pages that enable information to be displayed
+  in a web browser.
+  
+  <p>HTML describes the structure of pages using what is known as markup, that are 
+  composed of elements such as 'paragraph elements': <b><xmp><p></p></xmp></b> 
+  
+  or various other elements that define how a page will be formated, to create a list, or a table
+  or even an element to add styling, such as bolding for example. <br><br>
+  
+  See The World Wide Web Consortium <a href="http://www.w3.org/standards/webdesign/htmlcss">(W3C)</a> 
+  for further info. 
+  <b><xmp><b></b></xmp></b>
+ </p>
+  
+  <p><b>Basic HTML structure of a webpage</b></p>
+  
+  <xmp>
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>This a appears on the browser's tab'</title>
+</head>
+  <body>
+  Main content of your webpage
+  </body>
+</html>
+</xmp>
+
+<p><b>HTML Vocabulary</b></p>
+<!--I looked at the following website for instructions on how to
+add styling to the list element: http://www.w3schools.com/html/html_lists.asp-->
+
+<ul style="list-font:bold-style-type:circle">
+  <li><b>Tag:</b> <br><br>
+  <ul>An HTML tag is always contained within angled brackets. Most tags have 
+  an opening tag: <xmp><p> for example and a closing tag, </p></xmp> Some tags (called "void" tags) 
+  do not require a closing tag like the following tag, that enables you to move your content to the
+  next line:
+  <xmp> The break tag - <br> - for example</xmp> 
+  </ul>
+  </li>
+  
+  <li><b>Element:</b><br><br>
+  <ul>  
+    An HTML element refers to everything within a set of opening and closing tags.</ul>
+  </li><br>
+  
+  <li><b>Attribute:</b></li><br>
+  <ul>
+    This is a property of an HTML element, the attributes define what can be down to further,
+    enhance the content within the element structure. For example, to set the href attribute of an
+anchor tag to the Udacity URL, you would write:
+<xmp><a href="www.udacity.com"></xmp>
+  </ul>
+</ul>
+</body>
+</HTML>
